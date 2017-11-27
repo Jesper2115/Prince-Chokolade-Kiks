@@ -66,4 +66,40 @@ footer {
             ;
     }
    
+#pagewrap2 {
+        display: grid;
+        grid-gap: 0.5em;
+        grid-template-columns: 5fr 2fr 2fr;
+        grid-template-rows:  1fr 2fr 2fr 1fr;
+        grid-template-areas: 
+            "a a a"
+            "b b f"
+            "c c e"
+            "h h h"
+            
+            ;
+    }
+
+#Historie4{
+    grid-area: b;
+    font-size: 1.7em;
+}
+
+#Historie5{
+    grid-area: c;
+    font-size: 1.7em;
+}
+
+
+
+
+#Billed4 {
+    grid-area: e;
+    
+}
+
+#Billed5{
+    grid-area: f;
+    padding-left: 2em;
+    
 }

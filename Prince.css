@@ -1,0 +1,69 @@
+
+
+body {
+    font-family: sans-serif;
+    background-color: #2700ff;
+    margin: 0.5em;
+    color: #ffffff;
+}
+
+header {
+    grid-area: a;
+   
+}
+
+
+
+#Historie1{
+    grid-area: b;
+    font-size: 1.7em;
+}
+
+#Historie2{
+    grid-area: c;
+    font-size: 1.7em;
+}
+
+#Historie3{
+    grid-area: d;
+   font-size: 1.7em;
+}
+
+#Billed1{
+    grid-area: e;
+    
+}
+
+#Billed2{
+    grid-area: f;
+    padding-left: 2em;
+    
+}
+
+
+#Billed3 {
+    grid-area: g;
+    padding-left: 2em;
+}
+
+footer {
+    grid-area: h;
+    padding-left: 2em;
+}
+
+#pagewrap {
+        display: grid;
+        grid-gap: 0.5em;
+        grid-template-columns: 5fr 2fr 2fr;
+        grid-template-rows:  1fr 2fr 2fr 2fr 1fr;
+        grid-template-areas: 
+            "a a a"
+            "b b f"
+            "c c e"
+            "d d g"
+            "h h h"
+            
+            ;
+    }
+   
+}

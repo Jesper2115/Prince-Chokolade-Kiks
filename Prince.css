@@ -17,21 +17,24 @@ header {
 #Historie1{
     grid-area: b;
     font-size: 1.7em;
+    text-shadow: 0.5px 0.5px;
 }
 
 #Historie2{
     grid-area: c;
     font-size: 1.7em;
+    text-shadow: 0.5px 0.5px;
 }
 
 #Historie3{
     grid-area: d;
    font-size: 1.7em;
+    text-shadow: 0.5px 0.5px;
 }
 
 #Billed1{
     grid-area: e;
-    
+    padding-left: 2em;
 }
 
 #Billed2{
@@ -83,11 +86,14 @@ footer {
 #Historie4{
     grid-area: b;
     font-size: 1.7em;
+    text-shadow: 0.5px 0.5px;
 }
 
 #Historie5{
     grid-area: c;
     font-size: 1.7em;
+    text-shadow: 0.5px 0.5px;
+
 }
 
 
@@ -95,11 +101,36 @@ footer {
 
 #Billed4 {
     grid-area: e;
-    
+    padding-left: 2em;
 }
 
 #Billed5{
     grid-area: f;
     padding-left: 2em;
     
+}
+
+#pagewrap3 {
+    display: grid;
+        grid-gap: 0.5em;
+        grid-template-columns: 5fr 2fr 2fr;
+        grid-template-rows:  1fr 2fr 2fr 1fr;
+        grid-template-areas: 
+            "a a a"
+            "c c c"
+            "f f f"
+            "h h h"
+            
+            ;
+    }
+
+#Billed6 {
+    grid-area: f;
+    padding-left: 2em;
+}
+
+#Historie6{
+    grid-area: c;
+    font-size: 1.7em;
+    text-shadow: 0.5px 0.5px;
 }

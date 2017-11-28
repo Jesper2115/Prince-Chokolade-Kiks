@@ -3,32 +3,181 @@
 body {
     font-family: sans-serif;
     background-color: #2700ff;
-    margin: 0.5em;
+    margin: em;
+    color: #ffffff;
+}
+
+header {
+    background-color:#ffffff;
+    grid-area: a;
+    box-shadow:         0px 3px 5px rgba(100, 100, 100, 0.49);
+    
+}
+
+#Lulogo {
+    width: 100px;
+    grid-area: q;
+
+}
+
+#Princelogo {
+    width: 100px;
+    grid-area: k;
+}
+
+#Historie1{
+    grid-area: b;
+    font-size: 2em;
+    text-shadow: 0.5px 0.5px;
+}
+
+#Historie2{
+    grid-area: c;
+    font-size: 2em;
+    text-shadow: 0.5px 0.5px;
+}
+
+#Historie3{
+    grid-area: d;
+   font-size: 2em;
+    text-shadow: 0.5px 0.5px;
+}
+
+#Billed1{
+    grid-area: e;
+    padding-left: 2em;
+}
+
+#Billed2{
+    grid-area: f;
+    padding-left: 2em;
+    
+}
+
+
+#Billed3 {
+    grid-area: g;
+    padding-left: 2em;
+}
+
+footer {
+    grid-area: h;
+    padding-left: 2em;
+}
+
+#pagewrap {
+        
+        display: grid;
+        grid-gap: 0.5em;
+        grid-template-columns: 5fr 2fr 2fr;
+        grid-template-areas: 
+            "a a a"
+            "b b f"
+            "c c e"
+            "d d g"
+            "h h h"
+            
+            ;
+    }
+   
+#pagewrap2 {
+        display: grid;
+        grid-gap: 0.5em;
+        grid-template-columns: 5fr 2fr 2fr;
+        grid-template-areas: 
+            "a a a"
+            "b b f"
+            "c c e"
+            "h h h"
+            
+            ;
+    }
+
+#Historie4{
+    grid-area: b;
+    font-size: 2em;
+    text-shadow: 0.5px 0.5px;
+}
+
+#Historie5{
+    grid-area: c;
+    font-size: 2em;
+    text-shadow: 0.5px 0.5px;
+
+}
+
+
+
+
+#Billed4 {
+    grid-area: e;
+    padding-left: 2em;
+}
+
+#Billed5{
+    grid-area: f;
+    padding-left: 2em;
+    
+}
+
+#pagewrap3 {
+    display: grid;
+        grid-gap: 0.5em;
+        grid-template-columns: 5fr 2fr 2fr;
+        grid-template-areas: 
+            "a a a"
+            "c c c"
+            "f f f"
+            "h h h"
+            
+            ;
+    }
+
+#Billed6 {
+    grid-area: f;
+    padding-left: 2em;
+}
+
+#Historie6{
+    grid-area: c;
+    font-size: 2em;
+    text-shadow: 0.5px 0.5px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    body {
+    font-family: sans-serif;
+    background-color: #2700ff;
+    margin: 5em;
     color: #ffffff;
 }
 
 header {
     grid-area: a;
-   
+
 }
 
 
 
 #Historie1{
     grid-area: b;
-    font-size: 1.7em;
+    font-size: 2em;
     text-shadow: 0.5px 0.5px;
 }
 
 #Historie2{
     grid-area: c;
-    font-size: 1.7em;
+    font-size: 2em;
     text-shadow: 0.5px 0.5px;
 }
 
 #Historie3{
     grid-area: d;
-   font-size: 1.7em;
+   font-size: 2em;
     text-shadow: 0.5px 0.5px;
 }
 
@@ -57,13 +206,13 @@ footer {
 #pagewrap {
         display: grid;
         grid-gap: 0.5em;
-        grid-template-columns: 5fr 2fr 2fr;
-        grid-template-rows:  1fr 2fr 2fr 2fr 1fr;
+        grid-template-columns: 3fr 3fr 3fr;
         grid-template-areas: 
             "a a a"
-            "b b f"
-            "c c e"
-            "d d g"
+            "b b b"
+            "c c c"
+            "d d d"
+            "e f g"
             "h h h"
             
             ;
@@ -72,26 +221,26 @@ footer {
 #pagewrap2 {
         display: grid;
         grid-gap: 0.5em;
-        grid-template-columns: 5fr 2fr 2fr;
-        grid-template-rows:  1fr 2fr 2fr 1fr;
+        grid-template-columns: 4fr 4fr;
+    
         grid-template-areas: 
-            "a a a"
-            "b b f"
-            "c c e"
-            "h h h"
+            "a a"
+            "b b"
+            "c c"
+            "e f"
             
             ;
     }
 
 #Historie4{
     grid-area: b;
-    font-size: 1.7em;
+    font-size: 2em;
     text-shadow: 0.5px 0.5px;
 }
 
 #Historie5{
     grid-area: c;
-    font-size: 1.7em;
+    font-size: 2em;
     text-shadow: 0.5px 0.5px;
 
 }
@@ -114,7 +263,6 @@ footer {
     display: grid;
         grid-gap: 0.5em;
         grid-template-columns: 5fr 2fr 2fr;
-        grid-template-rows:  1fr 2fr 2fr 1fr;
         grid-template-areas: 
             "a a a"
             "c c c"
@@ -127,10 +275,161 @@ footer {
 #Billed6 {
     grid-area: f;
     padding-left: 2em;
+    min-width: 500px;
 }
 
 #Historie6{
     grid-area: c;
-    font-size: 1.7em;
+    font-size: 2em;
     text-shadow: 0.5px 0.5px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    }
+}
+
+
+@media screen and (max-width: 400px){
+    body {
+    font-family: sans-serif;
+    background-color: #2700ff;
+    margin: 1em;
+    color: #ffffff;
+}
+
+header {
+    grid-area: a;
+    
+}
+
+
+
+#Historie1{
+    grid-area: b;
+    font-size: 1.3em;
+    text-shadow: 0.5px 0.5px;
+    text-align: center;
+}
+
+#Historie2{
+    grid-area: c;
+    font-size: 1.3em;
+    text-shadow: 0.5px 0.5px;
+    text-align: center;
+}
+
+#Historie3{
+    grid-area: d;
+   font-size: 1.3em;
+    text-shadow: 0.5px 0.5px;
+    text-align: center;
+}
+
+#Billed1{
+    grid-area: e;
+    padding: 2em;
+}
+
+#Billed2{
+    grid-area: f;
+    padding-left: 2em;
+    
+}
+
+
+#Billed3 {
+    grid-area: g;
+    padding-left: 2em;
+}
+
+footer {
+    grid-area: h;
+    padding-left: 2em;
+}
+
+#pagewrap {
+        display: grid;
+        grid-gap: 0.1em;
+        grid-template-columns: 7fr;
+        grid-template-areas: 
+            "a"
+            "b"
+            "e"
+            "c"
+            "f"
+            "d"
+            "g"
+            
+            ;
+    }
+   
+#pagewrap2 {
+        display: grid;
+        grid-gap: 0.5em;
+        grid-template-columns: 8fr;
+        grid-template-areas: 
+            "b"
+            "e"
+            "c"
+            "f"
+            
+            ;
+    }
+
+#Historie4{
+    grid-area: b;
+    font-size: 1.3em;
+    text-shadow: 0.5px 0.5px;
+    text-align: center;
+}
+
+#Historie5{
+    grid-area: c;
+    font-size: 1.3em;
+    text-shadow: 0.5px 0.5px;
+    text-align: center;
+}
+
+
+
+
+#Billed4 {
+    grid-area: e;
+    padding-left: 2em;
+}
+
+#Billed5{
+    grid-area: f;
+    padding-left: 2em;
+    
+}
+
+#pagewrap3 {
+    display: grid;
+        grid-gap: 0.5em;
+        grid-template-columns: 6fr;
+        grid-template-areas: 
+            "a"
+            "c"
+            "f"
+            
+            
+            ;
+    }
+
+#Billed6 {
+    grid-area: f;
+    padding-left: 2em;
+    min-width: 500px;
+}
+
+#Historie6{
+    grid-area: c;
+    font-size: 1.3em;
+    text-shadow: 0.5px 0.5px;
+    text-align: center;
+    margin-right: 200px;
+    }
+}
+
 }

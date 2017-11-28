@@ -16,19 +16,31 @@ header {
 
 #Historie1{
     grid-area: b;
+<<<<<<< HEAD
     font-size: 2em;
+=======
+    font-size: 1.7em;
+>>>>>>> 32b2ba8cef1fefa0c5a9695e5614d3b20dbb0a4c
     text-shadow: 0.5px 0.5px;
 }
 
 #Historie2{
     grid-area: c;
+<<<<<<< HEAD
     font-size: 2em;
+=======
+    font-size: 1.7em;
+>>>>>>> 32b2ba8cef1fefa0c5a9695e5614d3b20dbb0a4c
     text-shadow: 0.5px 0.5px;
 }
 
 #Historie3{
     grid-area: d;
+<<<<<<< HEAD
    font-size: 2em;
+=======
+   font-size: 1.7em;
+>>>>>>> 32b2ba8cef1fefa0c5a9695e5614d3b20dbb0a4c
     text-shadow: 0.5px 0.5px;
 }
 
@@ -85,13 +97,21 @@ footer {
 
 #Historie4{
     grid-area: b;
+<<<<<<< HEAD
     font-size: 2em;
+=======
+    font-size: 1.7em;
+>>>>>>> 32b2ba8cef1fefa0c5a9695e5614d3b20dbb0a4c
     text-shadow: 0.5px 0.5px;
 }
 
 #Historie5{
     grid-area: c;
+<<<<<<< HEAD
     font-size: 2em;
+=======
+    font-size: 1.7em;
+>>>>>>> 32b2ba8cef1fefa0c5a9695e5614d3b20dbb0a4c
     text-shadow: 0.5px 0.5px;
 
 }
@@ -131,6 +151,7 @@ footer {
 
 #Historie6{
     grid-area: c;
+<<<<<<< HEAD
     font-size: 2em;
     text-shadow: 0.5px 0.5px;
     text-align: center;
@@ -425,4 +446,8 @@ footer {
     }
 }
 
+=======
+    font-size: 1.7em;
+    text-shadow: 0.5px 0.5px;
+>>>>>>> 32b2ba8cef1fefa0c5a9695e5614d3b20dbb0a4c
 }

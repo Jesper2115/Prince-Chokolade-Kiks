@@ -140,7 +140,7 @@ footer {
 #pagewrap2 {
         display: grid;
         grid-gap: 0.5em;
-        grid-template-columns: 5fr 2fr 2fr;
+        grid-template-columns: 2fr 2fr 2fr;
         grid-template-areas: 
             "a a a"
             "e b b"
@@ -208,7 +208,7 @@ footer {
 #pagewrap3 {
     display: grid;
         grid-gap: 0.5em;
-        grid-template-columns: 5fr 2fr 2fr;
+        grid-template-columns: 2fr 2fr 2fr;
         grid-template-areas: 
             "a a a"
             "c c c"
@@ -409,7 +409,7 @@ footer {
 #pagewrap3 {
     display: grid;
         grid-gap: 0.5em;
-        grid-template-columns: 5fr 2fr 2fr;
+        grid-template-columns: 2fr 2fr 2fr;
         grid-template-areas: 
             "a a a"
             "c c c"

@@ -16,16 +16,31 @@ header {
 
 
 
-#Lulogo, #Princelogo {
-    width: 100px;
-    
-
+#Header {
+     display: grid;
+        grid-gap: 0.5em;
+        grid-template-columns: 2fr 2fr 2fr;
+        grid-template-areas: 
+           "t y"
+            
+            ;
 }
 
-#Princelogo {
-    width: 100px;
+
+#Logo {
+    grid-area: t;
     
 }
+
+
+#Navn {
+    grid-area: y;
+    color:#fcf200;
+    text-shadow: 0.5px 0.5px #171208;
+}
+
+
+
 
 #Historie1{
     grid-area: b;
@@ -418,7 +433,7 @@ footer {
 #Billed6 {
     grid-area: f;
     padding-left: 2em;
-    max-width: 50px;
+    min-width: 50px;
 }
 
 #Historie6{

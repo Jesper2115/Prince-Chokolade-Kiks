@@ -104,8 +104,8 @@ footer {
         grid-template-columns: 5fr 2fr 2fr;
         grid-template-areas: 
             "a a a"
-            "b b f"
-            "e c c"
+            "f b b"
+            "c c e"
             "h h h"
             
             ;
@@ -165,6 +165,9 @@ footer {
     margin-right: 30px;
 }
 
+#Billed1 img, #Billed2 img, #Billed3 img, #Billed4 img, #Billed5 img, #Billed6 img {
+    height: 50em;
+}
 
 @media screen and (max-width: 1200px) {
     body {

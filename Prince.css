@@ -16,7 +16,7 @@ header {
 
 
 
-#Lulogo {
+#Lulogo, #Princelogo {
     width: 100px;
     
 
@@ -408,28 +408,25 @@ footer {
 #pagewrap3 {
     display: grid;
         grid-gap: 0.5em;
-        grid-template-columns: 6fr;
+        grid-template-columns: 1fr;
         grid-template-areas: 
             "a"
             "c"
-            "f"
-            
-            
-            ;
+            "f";
     }
 
 #Billed6 {
     grid-area: f;
     padding-left: 2em;
-    min-width: 500px;
+    max-width: 50px;
 }
 
 #Historie6{
     grid-area: c;
-    font-size: 1.3em;
+   font-size: 1.3em;
     text-shadow: 0.5px 0.5px;
     text-align: center;
-    margin-right: 200px;
+   
     }
 }
 
@@ -439,6 +436,7 @@ footer {
     grid-area: d;
    font-size: 1.3em;
     text-shadow: 0.5px 0.5px;
+    text-align: center;
 }
 
 #Billed1{

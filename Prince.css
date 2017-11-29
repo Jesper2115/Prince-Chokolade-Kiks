@@ -477,15 +477,6 @@ footer {
     }
 }
 
-
-
-#Historie3{
-    grid-area: d;
-   font-size: 1.7em;
-    text-shadow: 0.5px 0.5px;
-    text-align: center;
-}
-
 #Billed1{
     grid-area: e;
     padding: 2em;

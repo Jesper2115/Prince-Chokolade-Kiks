@@ -105,10 +105,15 @@ footer {
             "h h h"
             
             ;
+        background-image: url("pattern.png");
     }
 
-#Opskrifttext1 {
+#Opskrifttekst1 {
     grid-area: a;
+    color: black;
+    font-size: 1em;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 #Opskriftbillede1 {
@@ -121,6 +126,7 @@ footer {
     grid-template-columns: 2fr 1fr;
     grid-template-areas: 
             "a b";
+    background-image: url("pattern2.png");
 }
 
 #pagewrap2 {
@@ -134,10 +140,12 @@ footer {
             "h h h"
             
             ;
+        background-image: url("pattern.png");
     }
 
 #Opskrifttekst2 {
     grid-area: c;
+    color: black;
 }
 
 #Opskriftbillede2 {
@@ -150,6 +158,8 @@ footer {
     grid-template-columns: 2fr 1fr;
     grid-template-areas: 
             "c d";
+    background-image: url("pattern2.png");
+
 }
 
 #Historie4{
@@ -194,6 +204,7 @@ footer {
             "h h h"
             
             ;
+        background-image: url("pattern.png");
     }
 
 #Billed6 {

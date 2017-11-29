@@ -668,12 +668,6 @@ footer {
     width: 100%;
     height: auto;
 }
-    
-#Opskrift1{
-    grid-template-areas: 
-            "a"
-            "b"
-}
 
 #Opskriftbillede1, #Opskriftbillede2{
 width: 1fr;

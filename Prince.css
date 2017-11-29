@@ -90,8 +90,8 @@ footer {
         grid-template-columns: 5fr 2fr 2fr;
         grid-template-areas: 
             "a a a"
-            "b b f"
-            "c c e"
+            "b b e"
+            "c c f"
             "d d g"
             "h h h"
             

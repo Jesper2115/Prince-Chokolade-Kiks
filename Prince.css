@@ -37,7 +37,8 @@ header {
     grid-area: y;
     color:#fcf200;
     text-shadow: 0.5px 0.5px #171208;
-    font-size: 2.5em
+    font-size: 2.5em;
+    width: 100vh;
 }
 
 
@@ -104,8 +105,8 @@ footer {
         grid-template-columns: 5fr 2fr 2fr;
         grid-template-areas: 
             "a a a"
-            "f b b"
-            "c c e"
+            "e b b"
+            "c c f"
             "h h h"
             
             ;
@@ -254,15 +255,16 @@ footer {
 
 #pagewrap {
         display: grid;
-        grid-gap: 0.5em;
-        grid-template-columns: 3fr 3fr 3fr;
+        grid-gap: 0.1em;
+        grid-template-columns: 7fr;
         grid-template-areas: 
-            "a a a"
-            "b b b"
-            "c c c"
-            "d d d"
-            "e f g"
-            "h h h"
+            "a"
+            "b"
+            "e"
+            "c"
+            "f"
+            "d"
+            "g"
             
             ;
     }
@@ -270,15 +272,25 @@ footer {
 #pagewrap2 {
         display: grid;
         grid-gap: 0.5em;
-        grid-template-columns: 4fr 4fr;
-    
+        grid-template-columns: 8fr;
         grid-template-areas: 
-            "a a"
-            "b b"
-            "c c"
-            "e f"
+            "b"
+            "e"
+            "c"
+            "f"
             
             ;
+    }
+
+
+#pagewrap3 {
+    display: grid;
+        grid-gap: 0.5em;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "a"
+            "c"
+            "f";
     }
 
 #Historie4{
@@ -336,7 +348,10 @@ footer {
     margin-right: 30px;
 }
 
-
+#Billed1 img, #Billed2 img, #Billed3 img, #Billed4 img, #Billed5 img, #Billed6 img {
+    width: 100%;
+    height: inherit;
+}
 
 @media screen and (max-width: 400px){
     
@@ -495,4 +510,9 @@ footer {
 footer {
     grid-area: h;
     padding-left: 2em;
+}
+
+#Billed1 img, #Billed2 img, #Billed3 img, #Billed4 img, #Billed5 img, #Billed6 img {
+    width: 100%;
+    height: auto;
 }

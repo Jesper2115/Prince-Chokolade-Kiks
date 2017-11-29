@@ -90,7 +90,7 @@ footer {
         grid-template-areas: 
             "a a a"
             "b b e"
-            "c c f"
+            "f c c"
             "d d g"
             "h h h"
             
@@ -104,7 +104,7 @@ footer {
         grid-template-areas: 
             "a a a"
             "b b f"
-            "c c e"
+            "e c c"
             "h h h"
             
             ;

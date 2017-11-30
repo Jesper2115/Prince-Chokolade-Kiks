@@ -521,6 +521,13 @@ footer {
     #Logo1{
         width: 6em
     }
+    #Header2{
+        font-size: 1.5em
+    }    
+    
+    #Logo2{
+        width: 6em
+    }
 }
 @media screen and (max-width: 400px){
     
@@ -741,5 +748,20 @@ footer {
 
 #Opskriftbillede1, #Opskriftbillede2{
 width: 1fr;
+    }
+    
+    #Header1{
+        font-size: 1.5em
+    }    
+    
+    #Logo1{
+        width: 6em
+    }
+    #Header2{
+        font-size: 1.5em
+    }    
+    
+    #Logo2{
+        width: 6em
     }
 }

@@ -725,22 +725,10 @@ footer {
     
 }
 
-#pagewrap3 {
-    display: grid;
-        grid-gap: 0.5em;
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-            "a"
-            "c"
-            "f"
-            "z";
-    }
-
 #Billed6 {
     grid-area: f;
    margin-left: 2px;
     margin-right: 2px;
-    min-width: 50px;
 }
 
 #Historie6{
@@ -748,7 +736,8 @@ footer {
    font-size: 1.3em;
     text-shadow: 0.5px 0.5px;
     text-align: center;
-   
+   margin-left: 0.5em;
+    margin-right: 0.5em;
     }
 
 #Billed1{

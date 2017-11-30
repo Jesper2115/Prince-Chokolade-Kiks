@@ -28,6 +28,7 @@ header {
 
 #Logo {
     grid-area: t;
+    width:11em;
     
 }
 

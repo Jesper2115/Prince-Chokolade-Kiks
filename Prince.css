@@ -478,10 +478,19 @@ footer {
             "c c c"
             "f f f"
             "h h h"
+            "z z z"
             
             ;
     }
-
+    
+    #Kiks1 {
+        width: 60vw
+    }
+    
+#Kiks2 {
+        display: none;
+    }
+    
 #Billed6 {
     grid-area: f;
    margin-left: 30px;

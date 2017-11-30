@@ -484,7 +484,7 @@ footer {
     }
     
     #Kiks1 {
-        width: 60vw
+        width: 60vw;
     }
     
 #Kiks2 {
@@ -722,7 +722,8 @@ footer {
         grid-template-areas: 
             "a"
             "c"
-            "f";
+            "f"
+            "z";
     }
 
 #Billed6 {

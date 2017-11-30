@@ -527,7 +527,6 @@ footer {
     body {
     font-family: sans-serif;
     background-color: #2700ff;
-  
     color: #ffffff;
         
 }
@@ -581,8 +580,8 @@ header {
     font-size: 1.3em;
     text-shadow: 0.5px 0.5px;
     text-align: center;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 2px;
+    margin-right: 2px;
 }
 
 #Historie3{
@@ -590,34 +589,34 @@ header {
    font-size: 1.3em;
     text-shadow: 0.5px 0.5px;
     text-align: center;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 2px;
+    margin-right: 2px;
 }
 
 #Billed1{
     grid-area: e;
-  margin-left: 30px;
-    margin-right: 30px;
+ margin-left: 2px;
+    margin-right: 2px;
 }
 
 #Billed2{
     grid-area: f;
-    margin-left: 30px;
-    margin-right: 30px;
+   margin-left: 2px;
+    margin-right: 2px;
     
 }
 
 
 #Billed3 {
     grid-area: g;
-  margin-left: 30px;
-    margin-right: 30px;
+   margin-left: 2px;
+    margin-right: 2px;
 }
 
 footer {
     grid-area: h;
-   margin-left: 30px;
-    margin-right: 30px;
+  margin-left: 2px;
+    margin-right: 2px;
 }
 
 #pagewrap {
@@ -654,8 +653,8 @@ footer {
     font-size: 1.3em;
     text-shadow: 0.5px 0.5px;
     text-align: center;
-    margin-left: 30px;
-    margin-right: 30px;
+     margin-left: 2px;
+    margin-right: 2px;
 }
 
 #Historie5{
@@ -663,8 +662,8 @@ footer {
     font-size: 1.3em;
     text-shadow: 0.5px 0.5px;
     text-align: center;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 2px;
+    margin-right: 2px;
 }
 
 
@@ -672,14 +671,14 @@ footer {
 
 #Billed4 {
     grid-area: e;
-   margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 2px;
+    margin-right: 2px;
 }
 
 #Billed5{
     grid-area: f;
-    margin-left: 30px;
-    margin-right: 30px;
+     margin-left: 2px;
+    margin-right: 2px;
     
 }
 
@@ -695,8 +694,8 @@ footer {
 
 #Billed6 {
     grid-area: f;
-   margin-left: 30px;
-    margin-right: 30px;
+   margin-left: 2px;
+    margin-right: 2px;
     min-width: 50px;
 }
 
@@ -710,28 +709,28 @@ footer {
 
 #Billed1{
     grid-area: e;
-   margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 2px;
+    margin-right: 2px;
 }
 
 #Billed2{
     grid-area: f;
-    margin-left: 30px;
-    margin-right: 30px;
+     margin-left: 2px;
+    margin-right: 2px;
     
 }
 
 
 #Billed3 {
     grid-area: g;
-    margin-left: 30px;
-    margin-right: 30px;
+   margin-left: 2px;
+    margin-right: 2px;
 }
 
 footer {
     grid-area: h;
-   margin-left: 30px;
-    margin-right: 30px;
+  margin-left: 2px;
+    margin-right: 2px;
 }
 
 #Billed1 img, #Billed2 img, #Billed3 img, #Billed4 img, #Billed5 img, #Billed6 img {

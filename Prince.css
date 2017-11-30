@@ -218,10 +218,13 @@ footer {
             ;
         background-image: url("pattern.png");
         padding-bottom: 30px;
+        box-shadow: inset 0px 5px 20px 0px black;
     }
 
 #Billed6 {
     grid-area: f;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #Billed1 img, #Billed2 img, #Billed3 img, #Billed4 img, #Billed5 img, #Billed6 img {

@@ -5,21 +5,14 @@ body {
     color: #ffffff;
 }
 
-header {
+#Header {
     background-color:#1400ff;
     grid-area: a;
     box-shadow: 0px 10px 10px rgba(100, 100, 100, 0.49);
-    text-align: center;
-    
-}
-
-
-
-#Header {
-     display: grid;
-        grid-gap: 0.5em;
-        grid-template-columns: 1.5fr 2fr 2fr;
-        grid-template-areas: 
+    display: grid;
+    grid-gap: 0.5em;
+    grid-template-columns: 1.5fr 2fr 2fr;
+    grid-template-areas: 
            "t y"
             
             ;
@@ -28,7 +21,6 @@ header {
 
 #Logo {
     grid-area: t;
-    width:11em;
     
 }
 
@@ -36,9 +28,11 @@ header {
 #Navn {
     grid-area: y;
     color:#fcf200;
-    text-shadow: 2.5px 2.5px #886012;
+    text-shadow: 0.5px 0.5px #171208;
+
     font-size: 2.5em;
     width: 100vh;
+    font-size: 2.1em
 
 }
 
@@ -244,6 +238,52 @@ footer {
 
 #Opskriftbillede1, #Opskriftbillede2{
     width: 40em;
+}
+
+#Header1{
+    grid-area: a;
+    margin-bottom: auto;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2em
+}
+
+#Logo1{
+    grid-area: b;
+    width: 8em
+}
+
+#Overskrift1{
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    grid-template-areas: 
+        "b a";
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#Header2{
+    grid-area: a;
+    margin-bottom: auto;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2em
+}
+
+#Logo2{
+    grid-area: b;
+    width: 8em
+}
+
+#Overskrift2{
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    grid-template-areas: 
+        "b a";
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 @media screen and (max-width: 1200px) {
@@ -471,6 +511,14 @@ footer {
 }
 #pagewrap, #pagewrap2, #pagewrap3{
         text-align: center
+    }
+    
+    #Header1{
+        font-size: 1.5em
+    }    
+    
+    #Logo1{
+        width: 6em
     }
 }
 @media screen and (max-width: 400px){

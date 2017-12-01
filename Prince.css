@@ -264,7 +264,7 @@ footer {
 
 #Header1{
     grid-area: a;
-    margin-bottom: auto;
+    margin-bottom: 1em;
     margin-top: 1em;
     margin-left: auto;
     margin-right: auto;
@@ -287,16 +287,17 @@ footer {
 
 #Header2{
     grid-area: a;
-    margin-bottom: auto;
+    margin-bottom: 1em;
     margin-top: 1em;
     margin-left: auto;
     margin-right: auto;
-    font-size: 2em
+    font-size: 2em;
+    
 }
 
 #Logo2{
     grid-area: b;
-    width: 8em
+    width: 8em;
 }
 
 #Overskrift2{
@@ -306,6 +307,7 @@ footer {
         "b a";
     margin-top: 1em;
     margin-bottom: 1em;
+    Margin-left: 
 }
 
 #Krone{
